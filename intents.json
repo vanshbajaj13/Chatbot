@@ -1,0 +1,52 @@
+{ "intents": [
+  {  "tag":"pricing",
+  "Patterns": ["Can you tell me more about your pricing plans?"], 
+  "Responses": ["We have a range of pricing plans to suit different budgets and requirements. Please visit our website for more information."]
+  },
+  {  "tag":"feature_router_new",
+  "Patterns": ["What are the features of your new router?"], 
+  "Responses": ["Our new router comes with advanced security features, multiple antennas for improved signal strength, and the ability to connect multiple devices simultaneously."]
+  },
+  {  "tag":"most_sold_JAN",
+    "Patterns": ["What is the most sold machines in India in  JAN 2022"], 
+    "Responses": ["Phones and PS4"]
+  },
+  {"tag":"conectivity_problem",
+  "Patterns": ["I'm facing connectivity issues with my device. Can you help?"], 
+  "Responses": ["Please provide more details about the issue you're facing, and our support team will assist you in resolving it."]
+},
+{ "tag":"Router_model_3",
+"Patterns": ["What is the most sold Routers Model 3 in india"], 
+"Responses": ["Catalyst 9000 is the most sold"]
+},
+{ "tag" : "goodbye",
+"Patterns": [ "Goodbye","bye"],
+"Responses": ["Goodbye","Have a good day"]
+},
+{  "tag":"Gateway",
+"Patterns": ["Which Gateway machine models in United Kingdom"], 
+"Responses": ["567","150","786","240"]
+},
+{  "tag":"Faults",
+"Patterns": ["Latest faults machine code"], 
+"Responses": ["1256712786"]
+},
+{  "tag":"Faults_567",
+"Patterns": ["Any faults for code 567"], 
+"Responses": ["YES","NO"]
+},
+{  "tag":"Faults_Switches",
+"Patterns": ["Any faults in switches yesterday or today"], 
+"Responses": ["YES","NO"]
+},
+
+{ "tag" : "greetings",
+"Patterns": ["hello", "hey","hi","good day","Greetings"],
+"Responses": ["Hello", "hi", "How can i help you?"]
+},
+{  "tag":"Price",
+"Patterns": ["Price of range of gateway machines"], 
+"Responses": ["$100","$20","$40","$70"]
+}
+]}
+
